@@ -1,5 +1,9 @@
 # springboot-aws-lambda
 
+See Article on Serverless with Spring Boot on AWS (https://www.rowellbelen.com/serverless-microservices-with-spring-boot-and-spring-data/).
+
+See how to use Docker parameterization using SPRING_PROFILES_ACTIVE and ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]  (http://heidloff.net/article/how-to-use-spring-boot-serverless-computing)
+
 Example bootstrap project for creating and deploying a [Spring Boot](https://projects.spring.io/spring-boot/) application to [AWS Lambda](https://aws.amazon.com/lambda/) using the [Serverless Framework](https://serverless.com).
 
 Note: This example uses an in-memory H2 database that is created and initialized when the Lambda function is first invoked. You may notice delay in **"cold starts"**.
